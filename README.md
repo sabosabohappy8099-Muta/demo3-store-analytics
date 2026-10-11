@@ -6,7 +6,7 @@
 > **このリポジトリのデータはすべて架空のダミーデータです。** 実在の企業・店舗・人物とは関係ありません。
 > 店名の「〇〇店」には実在の駅名・地名を使っていますが、位置と実績はすべて架空です。
 
-- **デモ:** https://(公開後にURLを記入).streamlit.app
+- **デモ:** https://komugido-dashboard.streamlit.app/
 - **画面:** 全体サマリー / 地域別分析 / 店舗詳細 / 地図分析 / 商圏シミュレーション / レポート出力
 
 ![全体サマリー](docs/screenshots/01_summary.png)
@@ -164,7 +164,7 @@ python scripts/make_sample_report.py       # サンプルレポートを data/ �
    Main file path に `app.py` を指定します。
 3. 「Advanced settings」で Python のバージョンを **3.12** にします。
    AIモードを使う場合は、同じ画面の「Secrets」に `secrets.toml` と同じ形式でキーを貼り付けます(使わなければ不要)。
-4. 「Deploy」を押すと数分で公開されます。URL を README 冒頭の「デモ」に記入してください。
+4. 「Deploy」を押すと数分で公開されます(このリポジトリの公開先:https://komugido-dashboard.streamlit.app/)。
 
 ---
 
