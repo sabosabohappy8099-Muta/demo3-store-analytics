@@ -1,0 +1,17 @@
+# 白基調+小麦色アクセントのテーマ
+[theme]
+base = "light"
+primaryColor = "#C8963E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FAF6EE"
+textColor = "#2B2B2B"
+
+[server]
+headless = true
+
+[client]
+# 会議での投影時に「Deploy」ボタンなどの開発者向けメニューを出さない
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,18 @@
+# 動作確認済みのバージョンを下限にしています(メジャーバージョンの更新は避ける)
+# 画面
+streamlit>=1.65,<2
+# 集計
+pandas>=3.0,<4
+numpy>=2.5,<3
+duckdb>=1.5,<2
+pyarrow>=25.0
+# グラフ・地図
+plotly>=7.1,<8
+pydeck>=0.9,<1
+# Excelレポート
+openpyxl>=3.1,<4
+# AIコメント(CLAUDE/GEMINIモード用。MOCKモードでは使わない)
+anthropic>=1.12,<2
+google-genai>=2.29,<3
+# テスト
+pytest>=9.0
